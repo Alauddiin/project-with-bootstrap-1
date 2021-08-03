@@ -1,0 +1,22 @@
+@media screen and (max-width:400px) {
+    .carousel-item img{
+    width:200px;
+    height: 200px !important;
+    height:auto;
+    margin: 0 auto;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    padding-right: 20px;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 70%;
+    padding-left: 20px;
+    transform: translateY(-50%);
+    position: absolute;
+
+}
+}

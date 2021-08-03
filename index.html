@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project with Bootstrap</title>
+
+    <!--google fonts   cdn start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- bootstrapcdn start -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     
+    <!-- font awesome cdn start -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/responsive.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <header id="home">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                  <span> <i class="fa fa-bars navbar-icon"></i></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <img src="./resources/images/logo.png" alt="logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto nav-list ">
+                    <li class="nav-item ">
+                      <a class="nav-link text-center text-md-left" href="#" id="home">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-center text-md-left" href="#about-me">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#tutorials">Tutorials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#contact">Contact</a>
+                    </li>
+
+
+                    
+                  </ul>
+                </div>
+              </nav>
+
+              <section class="banner">
+                  <div class="banner-container text-center text-white d-flex justify-content-center align-items-center">
+                      <div class="banner-text "><h1 class="my-4 font-weight-bold">Learn something new!!!</h1>
+
+                          <button class=" mb-3  mr-3 text-uppercase button text-center" onclick="location.href='#tutorial'">
+                            <i class="fas fa-play"></i>
+                          Tutorials
+
+                          </button>
+                          
+  
+                         <button class="   mr-3 text-uppercase button  text-center" onclick="window.open('https://www.facebook.com/Alauddin.muhammad629')" class="request-callback">
+                           <i class="fab fa-youtube"></i>
+                         subscribe
+
+                         </button>
+
+                         
+  
+
+                        
+                    </div>
+                  </div>
+              </section>
+
+        </header>
+
+        
+
+          <!-- features section starts -->
+
+          <section class="features text-center my-2 py-4 ">
+
+            <div class="section-title text-center">
+              <h2>Features</h2>
+            </div>
+            <hr class="hr-line">
+            <div class="row mx-3">
+              <div class="col-lg-4 d-block d-lg-flex mb-3 features-con">
+                <div class="features-item">
+                  <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle mb-2 p-2"></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti eos, ducimus tempore cumque quibusdam ullam dignissimos corporis soluta ea?</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 d-block d-lg-flex mb-3 features-con">
+                <div class="features-item">
+                  <i class="fas fa-handshake fa-3x icon-style rounded-circle mb-2 p-2"></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti eos, ducimus tempore cumque quibusdam ullam dignissimos corporis soluta ea?</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 d-block d-lg-flex mb-3 features-con">
+                <div class="features-item">
+                  <i class="fas fa-calculator fa-3x icon-style rounded-circle mb-2 p-2"></i>
+                  <h5 class="font-weight-bold">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti eos, ducimus tempore cumque quibusdam ullam dignissimos corporis soluta ea?</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- features section ends -->
+
+
+          <!-- about me section starts -->
+
+          <section id="about-me">
+
+            <div class="section-title text-center py-4">
+              <h2>About Me</h2>
+            </div>
+            <hr class="hr-line">
+
+            <div class="row mb-5">
+              <div class="col-lg-5 text-center text-lg-left">
+                <div class="info-desc ml-lg-5">
+                  <i class="far fa-user fa-3x p-3 icon-style rounded-circle"></i>
+                  <h5 class="font-weight-bold pt-3 text-uppercase">Personal Info</h5>
+                  <p class="mb-0 font-weight-light">SSC: <span>Passed From Chittagong Board in 2016 with A+ Grade.</span></p>
+                  <p class="mb-0 font-weight-light">HSC: <span>Passed From Chittagong Board in 2018 with A Grade.</span></p>
+                  <p class="mb-0 font-weight-light">BSc: <span>Running.</span></p>
+                  <div class="my-0 font-weight-light"> <p>Website:<a  class="text-lowercase weblink" href="https://www.studywithalauddin.com" target="_blank">www.studywithalauddin.com</a></p>  </div>
+                  <button class="btn btn-style my-3 text-uppercase"><a href="https://www.dropbox.com/s/bsw1w0viob996h5/IMG_20210212_120526.jpg?dl=0&fbclid=IwAR2xZjgeC73qiNRec97EDVxjqbmX1V8S7FUyCqCmHlSXUkJAgXfA-Y0CmcQ">Download Photo</a></button>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 text-center text-lg-right text-xl-right text-md-center">
+
+                <div class="achieve-desc">
+                  <i class="fas fa-trophy fa-3x icon-style p-3 rounded-circle"></i>
+                  <h5 class="font-weight-bold pt-3 text-uppercase ">Achievements</h5>
+                  <p class="mb-0">Get <span class="font-weight-bold">Scholarship </span> in PEC ,JSC.</p>
+                  <p class="mb-0">Awarded <span class="font-weight-bold">Best Campus Amabassador &nbsp;</span> from Bunon.</p>
+                  <p class="mt-0"> Regarded <span class="font-weight-bold">Best Mastermind &nbsp;</span> at school. </p>
+                
+
+                </div>
+            </div>
+
+           
+            </div>
+           
+            </div>
+
+          </section>
+
+          <!-- About me section ends -->
+
+
+
+
+          <!-- Tutorials section starts -->
+          <div class="container">
+          <section class="tutorials-section my-2 " id="tutorials">
+
+            <div class="section-title text-center pt-3">
+              <h2 class="text-white text-white">Tutorials</h2>
+            </div>
+            <hr class="hr-line">
+
+
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/phy.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC PHYSICS</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/che.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC CHEMISTRY</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/bio.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC BIOLOGY</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/math.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC MATH</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/phy.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC PHYSICS</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/che.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC CHEMISTRY</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/bio.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC BIOLOGY</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card-body  my-3 mx-1">
+                  <div class="card-img mb-3"><img class="card-img-top" src="/resources/images/math.jpg" alt=""></div>
+                  <div class="card-head font-weight-bold mb-2 text-white text-center"><h4>HSC MATH</h4></div>
+                  <div class="card-text font-weight-light text-white text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis animi veniam nisi veritatis minus, magnam ab.</div>
+                  <div class="card-link"><a href="#"  class ="stretched-link"></a></div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+
+
+
+
+          <!-- tutorials section ends-->
+
+
+
+          <!-- feedback section starts -->
+          <div class="container">
+          <section class="feedback text-center ">
+
+
+            <div class="section-title text-center pt-3">
+              <h2 class="text-white text-white">Feedback</h2>
+            </div>
+            <hr class="hr-line">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500" data-pause="hover">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner text-center pb-3 mb-5">
+                <div class="carousel-item active ">
+                  <h5>Monirul Karim</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum necessitatibus aspernatur, recusandae facilis tempore explicabo delectus? Nihil amet dolorum consequuntur.</p>
+                  <img class="d-block " src="/resources/images/3.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <h5>Hasanat Jamil</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus praesentium in quis provident debitis, tempore rerum dolor quaerat repellat ipsa.</p>
+                  <img class="d-block" src="/resources/images/1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <h5>Muhammad Alauddin</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, magnam quia. Odio quod porro, quam ab debitis vel ullam soluta.</p>
+                  <img class="d-block " src="/resources/images/2.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+          </div>
+
+
+          <!-- feedback section ends -->
+
+
+          <!-- contact me section start -->
+          <div class="container">
+          <section class="contact-me my-4 py-3" id="contact">
+            <div class="section-title text-center pt-3">
+              <h2 class="text-white text-primary">Contact</h2>
+            </div>
+            <hr class="hr-line">
+
+          <form class="m-auto">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label  class="form-label">Massage</label>
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit p-2" class="btn btn-primary">Send</button>
+          </form>
+          </section>
+          </div>
+
+
+
+          <!-- contact me section ends -->
+
+
+
+
+
+        
+
+          <div class="container">
+            <footer>
+              <div class="row text-center text-white pb-2">
+                <div class="col-lg-6 col-sm-12">
+                  <span class="">&copy; Muhammad Alauddin</span>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                  <div class="social-icon">
+                    
+                    <a href="#home" class="text-white">
+                    <i class="fas fa-home"></i>
+
+                    </a>
+                    <a href="https://www.facebook.com/Alauddin.muhammad629" target="_blank">
+                    <i class="fab fa-facebook" ></i>
+                    </a>
+
+                    <a href="#">
+                    <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                    <i class="fab fa-twitter" ></i>
+                    </a>
+                    <a href="#">
+                    <i class="fab fa-whatsapp" ></i>
+
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </footer>
+        </div>
+    </div>
+    
+
+
+   <!-- javascript cdn -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
