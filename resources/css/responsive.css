@@ -7,7 +7,6 @@
     .carousel-item img{
     width:200px;
     height: 200px !important;
-    height:auto;
     margin: 0 auto;
 }
 .carousel-control-prev{
